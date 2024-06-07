@@ -42,7 +42,7 @@ export function init() {
       }
 
       // Adding MapTiler logo + link
-      const maptilerLink = document.createElement("a");
+      /*const maptilerLink = document.createElement("a");
       maptilerLink.href = "https://www.maptiler.com";
       maptilerLink.style =
         "position:absolute; left:10px; bottom:2px; z-index:999;";
@@ -52,7 +52,7 @@ export function init() {
       maptilerLogo.width = "100";
       maptilerLogo.height = "30";
       maptilerLink.appendChild(maptilerLogo);
-      map.getContainer().appendChild(maptilerLink);
+      map.getContainer().appendChild(maptilerLink);*/
 
       const paneName = this.getPaneName();
       map.getPane(paneName).appendChild(this._container);
